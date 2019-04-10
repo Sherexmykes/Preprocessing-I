@@ -161,3 +161,29 @@ h1 {
 	color:lavenderblush;
 	padding: 10px;
 }
+
+h3 {
+	display: flex;
+	justify-content: center;
+	font-family: cursive; 
+	font-size: 40px;
+	color:lavenderblush;
+	padding: 10px;
+}
+
+li {
+	display: flex;
+	justify-content: center;
+	font-family: cursive; 
+	font-size: 20px;
+
+	padding: 10px;
+}
+p {
+	display: flex;
+	justify-content: center;
+	font-family: cursive; 
+	font-size: 20px;
+	padding: 10px;
+}
+

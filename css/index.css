@@ -148,6 +148,7 @@ img{
 }
 
 .Main-Content {
+	width:100%
 	max-width: 800px;
 	margin: 0 auto;
 	font-size: 1.6rem;
@@ -180,17 +181,12 @@ h1 {
 	color:lavenderblush;
 	padding: 10px;
 }
-@body:#333;
-h1 {
-  color: yellow;
-}
-h1  (@body = #000) {
-  color: blue;
-}
-h1 (@body = #333) {
-  color: red;
 
+@aboutcolor color:#FF0000;
+.aboutme { font-size:5rem;
+color: @aboutcolor;
 }
+
 h3 {
 	display: flex;
 	justify-content: center;
